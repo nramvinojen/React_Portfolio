@@ -1,4 +1,4 @@
-import './Header.css';
+import './../Header/Header.css';
 
 function NameBanner(){
     return(

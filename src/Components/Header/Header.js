@@ -3,7 +3,7 @@ import './Header.css';
 function Header(){
     return(
       <div className="Header">
-        <h1> Summa site, Header</h1>
+        <h1> Ramvinojen Narayana Perumal </h1>
       </div>
     )
   

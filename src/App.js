@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header'
-import NameBanner from './Components/NameBanner'
+import Header from './Components/Header/Header'
+import NameBanner from './Components/NameBanner/NameBanner'
+import NavBar from './Components/NavBar/NavBar';
 
 
 function App() {
   return (
     
     <div>
-      <Header/>
+      <NavBar/>
+      <Header/>      
       
       <div className="App">
         <header className="App-header">
