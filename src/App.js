@@ -9,8 +9,10 @@ function App() {
   return (
     
     <div>
+      <Header/> 
       <NavBar/>
-      <Header/>      
+      <NameBanner/>
+           
       
       <div className="App">
         <header className="App-header">

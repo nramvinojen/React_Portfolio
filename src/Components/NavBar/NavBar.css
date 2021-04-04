@@ -1,19 +1,28 @@
-#nav {
+.horizontal-list {
   width: 100%;
   float: left;
   margin: 0 0 3em 0;
   padding: 0;
   list-style: none;
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+  background-color: #0ea6e2;
+  border-bottom: 1px solid rgb(9, 9, 9);
+  border-top: 1px solid rgb(17, 17, 17);
+  font-weight: bold;
 }
 
-#nav li a {
-  display: block;
+.menu-outer {
+  height: 50px;
+}
+
+ul.horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 12px;
+}
+ul.horizontal-list li {
+  display: inline;
   padding: 8px 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #069;
-  border-right: 1px solid #ccc;
+  color: rgb(111, 223, 7);
 }
